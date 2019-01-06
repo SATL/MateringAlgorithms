@@ -10,6 +10,17 @@ Given a set of N objects.
 ### [UF.java](UF.java)
 Abstract class with the definition of the methods
 
+### [MainUnionFind.java](MainUnionFind.java)
+Main method to run the different implementations of UnionFind, use the abstract class to create a method that outputs the result of the problem.
+````java
+public static void check(Class<?> ufClass) {
+        int n = 10;
+        Constructor<?> ctor = ufClass.getConstructor(int.class);
+        UF uf = (UF) ctor.newInstance(n);
+        ...
+
+`````
+
 ### [MyUF.java](MyUF.java)
 My attempt to solve the problem, prev the lessons:
 - Create an array of elements and initialize them with the index
