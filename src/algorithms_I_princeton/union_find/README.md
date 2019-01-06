@@ -1,16 +1,16 @@
 # Union find
-## Problem:
+## Problem: Dynamic connectivity
 Given a set of N objects. 
 - Union command: connect two objects.
 - Find/connected query: is there a path connecting the two objects?
 
-![Union find statement](../../../r_assets/union-find.png)
+![Union find statement](../../../r_assets/dynamic-connectivity.png)
 
 
 ### [UF.java](UF.java)
 Abstract class with the definition of the methods
 
-### [MyUF.java(MyUF.java)
+### [MyUF.java](MyUF.java)
 My attempt to solve the problem, prev the lessons:
 - Create an array of elements and initialize them with the index
 - union: put the element q as parent of p
@@ -19,7 +19,7 @@ My attempt to solve the problem, prev the lessons:
 
 Initialize | Union | Connected
 --- | --- | ---
-    N          1        N  
+N | 1 |N  
 
 ### [QuickFind.java (eager) ](QuickFind.java)
 Quick find solution
@@ -27,6 +27,6 @@ Quick find solution
 
 Initialize | Union | Connected
 --- | --- | ---
-    N          N        1  
+N | N | 1  
 
     
