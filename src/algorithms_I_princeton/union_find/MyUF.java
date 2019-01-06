@@ -35,14 +35,8 @@ package algorithms_I_princeton.union_find;
  *     for i in n
  *          items[i] = new Item(i)
  * }
- * define item{
- *     parent:int
- *     children:[Item] max n, same id
- * }
- *
  * union(int p, int q){
  *     items[q] = p;
- *     //q.childrens.parent = p;
  * }
  *
  * connected(int p, int q){
