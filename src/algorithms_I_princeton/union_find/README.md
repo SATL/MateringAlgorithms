@@ -15,7 +15,24 @@ My attempt to solve the problem, prev the lessons:
 - Create an array of elements and initialize them with the index
 - union: put the element q as parent of p
 - connected: the elements are connected if hay the same parent (root)
-- getParent(int p): return the parent of the element iterating its parent till the parent of the element is the same as the index of the element
+- getParent(int p): iterate its parent till the parent of the element is the same as the index of the element
+```
+[0,1,2,3,4,5,6] // initialize with the index
+
+union(1,3)
+[0,3,2,3,4,5,6] // change 1 to index 3 (parent)
+
+union(3,5)
+[0,3,2,5,4,5,6] // change 3 to parent 5, note that the 1 ( previous union desnt change)
+
+getParent(1)// return 5
+/*
+parent of 1 = 3
+parent of 3 = 5
+parent of 5 = 5; return 5
+
+*/
+````
 
 Initialize | Union | Connected
 --- | --- | ---
