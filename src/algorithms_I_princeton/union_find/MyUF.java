@@ -1,7 +1,5 @@
-package algoritms_I_princeton.union_find;
+package algorithms_I_princeton.union_find;
 
-
-import java.util.List;
 
 /***
  * Test of my iplementation for dynamic connectivity problem

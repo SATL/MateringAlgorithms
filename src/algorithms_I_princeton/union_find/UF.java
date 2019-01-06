@@ -1,4 +1,4 @@
-package algoritms_I_princeton.union_find;
+package algorithms_I_princeton.union_find;
 
 /***
  * Given a set of N objects.

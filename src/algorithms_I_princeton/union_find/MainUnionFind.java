@@ -1,7 +1,4 @@
-package algoritms_I_princeton.union_find;
-
-import algoritms_I_princeton.union_find.MyUF;
-import algoritms_I_princeton.union_find.UF;
+package algorithms_I_princeton.union_find;
 
 import java.lang.reflect.Constructor;
 
