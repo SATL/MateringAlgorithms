@@ -63,10 +63,18 @@ N | N | 1
 Instead of changing all the components containing q, keep track of the parent and asign that parent to de union. 
 To find check if the parent of the both elements are the same.
 
+Initialize | Union | Connected
+--- | --- | ---
+N | N+ | N  
++includes cost of finding roots
 #### Improvements
-Weight the tree. Keep track of the size of the tree and union to the bigger root.
+##### Weighted Quick Union.
+ Keep track of the size of the tree and union to the bigger root.
 ![Quick union improvements](../../../r_assets/quick-union-impr.jpg)
 
+Initialize | Union | Connected
+--- | --- | ---
+N | logN | logN 
 
 
     
