@@ -18,6 +18,8 @@ public class MainUnionFind {
 //        }
         check(MyUF.class);
         check(QuickFind.class);
+        check(QuickUnion.class);
+        check(WeightedQuickUnion.class);
     }
 
 

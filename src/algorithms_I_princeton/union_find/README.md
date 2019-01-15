@@ -57,4 +57,16 @@ Initialize | Union | Connected
 --- | --- | ---
 N | N | 1  
 
+
+### [QuickUnion.java lazy approach](QuickUnion.java)
+![Quick union solution](../../../r_assets/quick-union.jpg)
+Instead of changing all the components containing q, keep track of the parent and asign that parent to de union. 
+To find check if the parent of the both elements are the same.
+
+#### Improvements
+Weight the tree. Keep track of the size of the tree and union to the bigger root.
+![Quick union improvements](../../../r_assets/quick-union-impr.jpg)
+
+
+
     
