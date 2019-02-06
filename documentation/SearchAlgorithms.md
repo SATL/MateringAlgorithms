@@ -1,8 +1,8 @@
 # Search Algorithms
 Collection of algorithms used for searching in the course
 
-##Algorithms
-- [Binary Search](#Binary Search)
+## Algorithms
+[Binary Search](#binary-search)
 
 ### Binary Search
 Given a sorted array and a key, find the index of the key in the array
@@ -12,4 +12,4 @@ Given a sorted array and a key, find the index of the key in the array
 * Too big? go right
 * Equal? found
 
-[Java Implementation](./BinarySearch.java)
+[Java Implementation](../src/algorithms_I_princeton/algorithms/search/BinarySearch.java)
