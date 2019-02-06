@@ -1,3 +1,5 @@
+package algorithms_I_princeton.union_find.percolation.assets;
+
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 /******************************************************************************
  *  Dependencies: WeightedQuickUnionUF.java

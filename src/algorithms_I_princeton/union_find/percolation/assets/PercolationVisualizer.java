@@ -16,7 +16,6 @@ package algorithms_I_princeton.union_find.percolation.assets; /*****************
  *
  ******************************************************************************/
 
-import algorithms_I_princeton.union_find.percolation.assets.Percolation;
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdDraw;
 

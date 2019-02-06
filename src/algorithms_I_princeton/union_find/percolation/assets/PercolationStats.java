@@ -1,3 +1,5 @@
+package algorithms_I_princeton.union_find.percolation.assets;
+
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdStats;
