@@ -1,4 +1,4 @@
-package algorithms_I_princeton.cs_interdisciplinaryapproach.first_java_program;
+package cs_interdisciplinaryapproach.first_java_program;
 
 /***
  * Description: takes three names and prints out a proper sentence with the names in the reverse of the order given

@@ -1,4 +1,4 @@
-package algorithms_I_princeton.cs_interdisciplinaryapproach.data_types;
+package cs_interdisciplinaryapproach.data_types;
 
 /****
  *

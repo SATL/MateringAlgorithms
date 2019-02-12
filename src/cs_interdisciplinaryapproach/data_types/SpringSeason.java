@@ -1,4 +1,4 @@
-package algorithms_I_princeton.cs_interdisciplinaryapproach.data_types;
+package cs_interdisciplinaryapproach.data_types;
 
 /***
  * takes two int values m and d from the command line and prints true if day d of month m is between March 20 (m = 3, d =20)
