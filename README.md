@@ -7,6 +7,7 @@ Language: Java, i choose this language because is the one that i've studied most
 - [Search Algorithms](documentation/SearchAlgorithms.md)
 - [Graph Algorithms](documentation/GraphsAlgorithms.md)
 
+## [ Collection of problems ](documentation/Problems.md)
 
 ## Courses
 - [Algorithms I](src/algorithms_I_princeton) by Princeton University ( Java ) [ [course](https://www.coursera.org/learn/algorithms-part1) ]

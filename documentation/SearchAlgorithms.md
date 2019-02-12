@@ -13,3 +13,4 @@ Given a sorted array and a key, find the index of the key in the array
 * Equal? found
 
 [Java Implementation](../src/algorithms_I_princeton/algorithms/search/BinarySearch.java)
+
