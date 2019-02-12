@@ -49,6 +49,15 @@ public class BinarySearch {
         else return mid;
     }
 
+    public static int binarySearchInverse(int key, int arr[], int low, int high){
+        if(low>high) return -1;
+        int mid = low + (high - low)/2; //0
+
+        if(key > arr[mid]) return binarySearchInverse(key, arr, low, mid-1);
+        else if (key < arr[mid]) return binarySearchInverse(key, arr, mid+1, high);
+        else return mid;
+    }
+
     /***
      * Find the key in the array using binary Search Recursion
      * @param key

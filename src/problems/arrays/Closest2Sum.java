@@ -57,7 +57,6 @@ public class Closest2Sum {
     private static int[] searchDifference(int[] b, Set<Integer> set, int target, int difference) {
         for (int i : b) {
             int toSearch = target -difference - i;
-            System.out.println(i+" "+toSearch);
             if (set.contains(toSearch)) {
                 return new int[]{toSearch, i};
             }
