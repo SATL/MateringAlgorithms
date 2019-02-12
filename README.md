@@ -1,6 +1,8 @@
 # Algorithms
 Project to master Algorithms from different courses, books and practice.
+
 Ide: Used IntelliJ IDEA CE
+
 Language: Java, i choose this language because is the one that i've studied most and the one i want to work more with, but can be another examples in C++ in Python
 
 ## Collection of algorithms
