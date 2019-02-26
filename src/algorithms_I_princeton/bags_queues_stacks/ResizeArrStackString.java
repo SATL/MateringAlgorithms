@@ -31,7 +31,7 @@ public class ResizeArrStackString {
         String item = arr[--n];
         arr[n] = null;
 
-        if(needsToGrowth())
+        if(needsShrink())
             resize(capacityToShrink());
         return item;
     }
