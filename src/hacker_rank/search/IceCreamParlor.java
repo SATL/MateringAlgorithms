@@ -1,4 +1,4 @@
-package hacker_rank.greedy;
+package hacker_rank.search;
 
 import java.util.HashMap;
 import java.util.Map;
