@@ -15,7 +15,6 @@ public class Palindrome {
         System.out.println("ab "+ isPalindrome("ab"));
 
         System.out.println("motor "+ isPalindrome("motor"));
-
         System.out.println("rotor "+ isPalindrome("rotor"));
     }
 }
